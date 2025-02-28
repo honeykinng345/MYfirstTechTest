@@ -1,0 +1,40 @@
+[versions]
+agp = "8.7.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.8.0"
+constraintlayout = "2.2.0"
+courtineVersion = "1.6.0"
+retrofitVersion = "2.9.0"
+retrofitConverterVersion = "2.9.0"
+kotlin = "1.9.24"
+coreKtx = "1.15.0"
+viewModelVersion = "2.8.7"
+androidKtxActivity = "1.8.0"
+androidGlide = "4.15.1"
+androidGlideKept = "4.15.1'"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-corutine = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "courtineVersion" }
+androidx-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
+androidx-retrofit-converter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitConverterVersion" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-view-model = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "viewModelVersion" }
+androidx-view-activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "androidKtxActivity" }
+androidx-network-imagee = { group = "com.github.bumptech.glide", name = "glide", version.ref = "androidGlide" }
+androidx-network-imagee-kapt = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "androidGlideKept" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

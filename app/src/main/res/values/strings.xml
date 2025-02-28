@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MYFirst Tech</string>
+    <string name="search_hint">Search GitHub users…</string>
+    <string name="search">Search</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="please_enter_at_least_2_characters">Please enter at least 2 characters</string>
+    <string name="name">Name</string>
+    <string name="url">Url</string>
+</resources>
